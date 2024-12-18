@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Stylish Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        section {
+            margin: 20px 0;
+        }
+        .highlight {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Stylish Page</h1>
+    </header>
+
+    <section>
+        <h2>About This Page</h2>
+        <p>This page demonstrates a simple HTML layout with inline CSS styling. Isn’t it <span class="highlight">amazing</span>?</p>
+    </section>
+
+    <section>
+        <h2>Why Learn HTML?</h2>
+        <ol>
+            <li>Build amazing websites.</li>
+            <li>Understand the structure of the web.</li>
+            <li>Bring your ideas to life!</li>
+        </ol>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 WebDesign101. All rights reserved.</p>
+    </footer>
+</body>
+</html>
